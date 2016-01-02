@@ -1,0 +1,14 @@
+package com.puravida.software.testquartz
+
+
+
+class MyJob {
+    static triggers = {
+      simple repeatInterval:1000, repeatCount: 4 // 5 shot 
+    }
+
+    def execute() {
+        // execute job
+	println "yeaaahhhhh"
+    }
+}

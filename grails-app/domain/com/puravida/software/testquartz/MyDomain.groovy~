@@ -1,0 +1,9 @@
+package com.puravida.software
+
+class MyDomain {
+
+    static constraints = {
+    }
+
+	String name
+}

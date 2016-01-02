@@ -1,0 +1,322 @@
+2016-01-02 11:28:05,358 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@63a8038d
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore$run$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.test.spock.GrailsSpecTestType.doRun(GrailsSpecTestType.groovy:147)
+	at org.codehaus.groovy.grails.test.support.GrailsTestTypeSupport.run(GrailsTestTypeSupport.groovy:121)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runTests(GrailsProjectTestRunner.groovy:415)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.processTests(GrailsProjectTestRunner.groovy:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner$_runAllTests_closure7.doCall(GrailsProjectTestRunner.groovy:313)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.callClosureForMapEntry(DefaultGroovyMethods.java:4271)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1408)
+	at org.codehaus.groovy.runtime.dgm$151.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy:299)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy:214)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner$runAllTests$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.cli.fork.testing.ForkedGrailsTestRunner.runInstance(ForkedGrailsTestRunner.groovy:128)
+	at org.codehaus.groovy.grails.cli.fork.ForkedGrailsProjectClassExecutor.run(ForkedGrailsProjectClassExecutor.groovy:74)
+	at org.codehaus.groovy.grails.cli.fork.testing.ForkedGrailsTestRunner.main(ForkedGrailsTestRunner.groovy:75)
+2016-01-02 11:28:05,361 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@63a8038d
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:05,362 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@63a8038d
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:05,362 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@63a8038d
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:05,379 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@63a8038d
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:05,379 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@63a8038d
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:11,532 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@516d352b
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore$run$0.call(Unknown Source)
+	at org.codehaus.groovy.grails.test.spock.GrailsSpecTestType.doRun(GrailsSpecTestType.groovy:147)
+	at org.codehaus.groovy.grails.test.support.GrailsTestTypeSupport.run(GrailsTestTypeSupport.groovy:121)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runTests(GrailsProjectTestRunner.groovy:415)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.processTests(GrailsProjectTestRunner.groovy:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner$_runAllTests_closure7.doCall(GrailsProjectTestRunner.groovy:313)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.callClosureForMapEntry(DefaultGroovyMethods.java:4271)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1408)
+	at org.codehaus.groovy.runtime.dgm$151.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy:299)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy:214)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner$runAllTests$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.cli.fork.testing.ForkedGrailsTestRunner.runInstance(ForkedGrailsTestRunner.groovy:128)
+	at org.codehaus.groovy.grails.cli.fork.ForkedGrailsProjectClassExecutor.run(ForkedGrailsProjectClassExecutor.groovy:74)
+	at org.codehaus.groovy.grails.cli.fork.testing.ForkedGrailsTestRunner.main(ForkedGrailsTestRunner.groovy:75)
+2016-01-02 11:28:11,532 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@516d352b
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:11,533 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@516d352b
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:11,533 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@516d352b
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:11,533 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@516d352b
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:28:11,533 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@516d352b
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:32:23,798 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@72a8da22
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore$run$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.test.spock.GrailsSpecTestType.doRun(GrailsSpecTestType.groovy:147)
+	at org.codehaus.groovy.grails.test.support.GrailsTestTypeSupport.run(GrailsTestTypeSupport.groovy:121)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runTests(GrailsProjectTestRunner.groovy:415)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.processTests(GrailsProjectTestRunner.groovy:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1152)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner$_runAllTests_closure7.doCall(GrailsProjectTestRunner.groovy:313)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:324)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1207)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1016)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.callClosureForMapEntry(DefaultGroovyMethods.java:4271)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1408)
+	at org.codehaus.groovy.runtime.dgm$151.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:271)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy:299)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy:214)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner.runAllTests(GrailsProjectTestRunner.groovy)
+	at org.codehaus.groovy.grails.test.runner.GrailsProjectTestRunner$runAllTests$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.grails.cli.fork.testing.ForkedGrailsTestRunner.runInstance(ForkedGrailsTestRunner.groovy:128)
+	at org.codehaus.groovy.grails.cli.fork.ForkedGrailsProjectClassExecutor.run(ForkedGrailsProjectClassExecutor.groovy:74)
+	at org.codehaus.groovy.grails.cli.fork.testing.ForkedGrailsTestRunner.main(ForkedGrailsTestRunner.groovy:75)
+2016-01-02 11:32:23,800 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@72a8da22
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:32:23,801 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@72a8da22
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:32:23,801 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@72a8da22
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:32:23,808 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@72a8da22
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:32:23,808 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@72a8da22
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:35)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+2016-01-02 11:33:31,415 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at grails.plugin.spock.IntegrationSpec.$spock_initializeSharedFields(IntegrationSpec.groovy)
+2016-01-02 11:33:31,418 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+2016-01-02 11:33:31,423 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+2016-01-02 11:41:40,164 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at grails.plugin.spock.IntegrationSpec.$spock_initializeSharedFields(IntegrationSpec.groovy)
+2016-01-02 11:41:40,167 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+2016-01-02 11:41:40,172 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+2016-01-02 11:45:12,635 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at grails.plugin.spock.IntegrationSpec.$spock_initializeSharedFields(IntegrationSpec.groovy)
+2016-01-02 11:45:12,638 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+2016-01-02 11:45:12,643 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.grails.commons.ApplicationHolder
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+2016-01-02 11:53:53,487 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: org.quartz.impl.StdScheduler.startup() is applicable for argument types: () values: []
+Possible solutions: start(), isStarted(), standby(), iterator(), wait(), grep()
+	at com.puravida.software.testquartz.TestingMyJobIntegrationSpec.setup(TestingMyJobIntegrationSpec.groovy:11)
+2016-01-02 11:53:53,506 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: org.quartz.impl.StdScheduler.startup() is applicable for argument types: () values: []
+Possible solutions: start(), isStarted(), standby(), iterator(), wait(), grep()
+	at com.puravida.software.testquartz.TestingMyJobIntegrationSpec.setup(TestingMyJobIntegrationSpec.groovy:11)
+2016-01-02 11:53:53,539 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: org.quartz.impl.StdScheduler.startup() is applicable for argument types: () values: []
+Possible solutions: start(), isStarted(), standby(), iterator(), wait(), grep()
+	at com.puravida.software.testquartz.TestingMyJobIntegrationSpec.setup(TestingMyJobIntegrationSpec.groovy:11)
+2016-01-02 11:53:53,554 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: org.quartz.impl.StdScheduler.startup() is applicable for argument types: () values: []
+Possible solutions: start(), isStarted(), standby(), iterator(), wait(), grep()
+	at com.puravida.software.testquartz.TestingMyJobIntegrationSpec.setup(TestingMyJobIntegrationSpec.groovy:11)
+2016-01-02 11:53:53,621 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: org.quartz.impl.StdScheduler.startup() is applicable for argument types: () values: []
+Possible solutions: start(), isStarted(), standby(), iterator(), wait(), grep()
+	at com.puravida.software.testquartz.TestingMyJobIntegrationSpec.setup(TestingMyJobIntegrationSpec.groovy:11)
+2016-01-02 11:53:53,635 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: org.quartz.impl.StdScheduler.startup() is applicable for argument types: () values: []
+Possible solutions: start(), isStarted(), standby(), iterator(), wait(), grep()
+	at com.puravida.software.testquartz.TestingMyJobIntegrationSpec.setup(TestingMyJobIntegrationSpec.groovy:11)

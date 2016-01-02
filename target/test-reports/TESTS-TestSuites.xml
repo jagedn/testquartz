@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="msi-ubuntu" id="0" name="TestingMyJobIntegrationSpec" package="com.puravida.software.testquartz" tests="1" time="3.134" timestamp="2016-01-02T11:09:36">
+      <properties />
+
+      <testcase classname="com.puravida.software.testquartz.TestingMyJobIntegrationSpec" name="test something" time="3.133" />
+
+      <system-out><![CDATA[--Output from test something--
+starting
+yeaaahhhhh
+yeaaahhhhh
+yeaaahhhhh
+yeaaahhhhh
+started
+cleaning
+after test count = 4
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test something--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
